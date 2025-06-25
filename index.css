@@ -1,0 +1,146 @@
+
+body {
+    padding: 20PX;
+    font-family:Arial Narrow, sans-serif;
+    background: linear-gradient(to right, rgb(227, 226, 219), rgb(249, 249, 249));}
+.site-header {
+    display: flex; 
+    justify-content: space-between; 
+    background-color: #ffffff00;
+    color: black;
+    padding: 20px 30px;
+    align-items: center; 
+  }
+  
+
+  .name  {
+    text-align: left;
+    
+    display: flex;
+  }
+
+  .name h3 {
+    padding: 0 10px  ;
+  }
+  
+ 
+  .no-bullets {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0; 
+  }
+  
+ 
+  .navigation ul {
+    display: flex;
+  }
+  
+  .navigation ul li {
+    margin-left: 20px; 
+  }
+  
+  .navigation ul li a {
+    text-decoration: none; 
+    color: black;
+    padding: 5px 10px;
+  }
+  
+  .navigation ul li a:hover {
+    background-color: #f0f0f0; 
+    border-radius: 5px; 
+  }
+
+.blue-box {
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+    margin-right: 1px;
+    margin-top: 20px;
+}
+
+
+
+.site-footer {
+    background-color: #ffffff;
+    color: black;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.call p {
+  
+  text-align:center;
+}
+
+.write p {
+    
+    text-align:center;
+}
+
+.social-link p {
+    
+  text-align:center;
+}
+
+
+.content {
+  display: flex;
+  min-height: calc(100vh - 160px);
+}
+
+.left {
+  width: 25%;
+  background-color:#f0e8e0 ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.left img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 50%;
+}
+
+.right {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  background-color: #fff;
+}
+
+.right h1 {
+  font-size: 64px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.right p {
+  font-size: 24px;
+  color: #333;
+}
+.Image {
+  text-align: center;
+}
+.myname {
+  margin-top: 15px;
+  font-size: 22px;
+  color: #333;
+  font-weight: bold;
+}
+
+
